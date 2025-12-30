@@ -179,7 +179,7 @@ class Contact:
 class User:
     """
     Represents a system user. 
-    Stores the password as a secure hash, never as plain text.
+    Stores the password as a secure hash and never as plain text password.
     """
     username: str
     password_hash: str
